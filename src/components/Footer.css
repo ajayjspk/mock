@@ -1,0 +1,106 @@
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 2rem;
+}
+
+.fotter-main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 13rem;
+    margin-bottom: 10px;
+}
+
+.footer-social-media-icons {
+    display: flex;
+    object-fit: fill;
+    width: inherit;
+    gap: 10px;
+}
+
+.footer-social-media-icons img {
+    width: 21px;
+    height: 21px;
+}
+
+.footer-menu-logo {
+    margin-left: 3rem;
+}
+
+
+.footer-logo img {
+    object-fit: cover;
+}
+
+.footer-logo {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.footer-menu-1,
+.footer-menu-2,
+.footer-menu-3 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.footer-menu-1 div,
+.footer-menu-2 div,
+.footer-menu-3 div {
+    margin-bottom: 3rem;
+}
+
+.footer-menu-1 div span,
+.footer-menu-2 div span,
+.footer-menu-3 div span {
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+
+.footer-menu-1 p,
+.footer-menu-2 p,
+.footer-menu-3 p {
+    margin-bottom: 1.5rem;
+}
+
+.horizontal-line {
+    height: 0.01rem;
+    width: 100%;
+    background-color: dimgray;
+    color: dimgray;
+}
+
+.footer-final {
+    margin: 10px 5px 0 0;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.footer-final .divide {
+    width: 3.5px;
+    height: 2.6rem;
+    background-color: dimgray;
+}
+
+.footer-final div {
+    margin: .9rem;
+}
+
+.footer-copyright {
+    text-align: center;
+}
