@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/scimics/static/css/main.9a0b4609.css",
+    "main.js": "/scimics/static/js/main.6cf03e57.js",
+    "static/media/Screenshot 8.png": "/scimics/static/media/Screenshot 8.411984aa6f2189beae4e.png",
+    "static/media/Screenshot 7.png": "/scimics/static/media/Screenshot 7.1842360c70f929b4fba4.png",
+    "static/media/Screenshot 9.png": "/scimics/static/media/Screenshot 9.f0042cebd99e61330cfe.png",
+    "static/media/Screenshot 10.png": "/scimics/static/media/Screenshot 10.c44f6652932f2524003d.png",
+    "static/media/Group-2195.png": "/scimics/static/media/Group-2195.dc997093989713dbae1a.png",
+    "static/media/marketing-manager 10.png": "/scimics/static/media/marketing-manager 10.1fd9b607df08831ed140.png",
+    "static/media/Group 33541.png": "/scimics/static/media/Group 33541.b5909ef4bc771463539b.png",
+    "static/media/Group 33545.png": "/scimics/static/media/Group 33545.b6083aa4b3af44f79009.png",
+    "static/media/Group 33542.png": "/scimics/static/media/Group 33542.656c94acb52a16efc837.png",
+    "static/media/Group 33547.png": "/scimics/static/media/Group 33547.cc259fcade4cb6c07ad4.png",
+    "static/media/Group 33548.png": "/scimics/static/media/Group 33548.8e9fd418d18a7f40de92.png",
+    "static/media/Group 33540.png": "/scimics/static/media/Group 33540.a7ac054031736f196b89.png",
+    "index.html": "/scimics/index.html",
+    "main.9a0b4609.css.map": "/scimics/static/css/main.9a0b4609.css.map",
+    "main.6cf03e57.js.map": "/scimics/static/js/main.6cf03e57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a0b4609.css",
+    "static/js/main.6cf03e57.js"
+  ]
+}
