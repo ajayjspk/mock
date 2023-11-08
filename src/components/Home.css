@@ -1,42 +1,47 @@
-.home {}
+.home {
+    margin: 0;
+    padding: 0;
+}
 
 .home-container {
     color: white;
     margin-top: 2rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     font-family: Inter;
+    padding: 2rem;
 }
 
 .left {
-    flex: 1;
-    width: 50%;
-    display: grid;
+    flex: 100%;
     align-items: center;
-    padding: 6rem;
+    padding: 3rem;
 }
 
-
 .right {
-    flex: 1;
-    float: right;
-    position: absolute;
-    top: 7rem;
-    left: 36%;
+    /* flex: 70%; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-grow: 1;
 }
 
 .right img {
     padding: 0rem;
+    scale: 1;
+    width: 100%;
+    object-fit:cover;
 }
 
-.left .heading {
+.left .heading h1{
     font-size: 3.3rem;
     font-weight: 500;
     margin: 1rem;
 }
 
-.left .tagline {
+.left .tagline p{
     font-size: 1.3rem;
     color: dimgray;
     font-weight: bold;
@@ -59,19 +64,11 @@
 
 
 .beta {
-    /* width: 15rem;
-    text-align: center;
-    padding: .4rem;
-    font-weight: 500;
-    background-color: rgb(44, 44, 44);
-    border-radius: 24px;
-    font-size: .9rem;
-    border: none; */
     margin: 1rem;
 }
 
 .dashboard-img {
-    margin: 0 auto;
+    margin: 0 ;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -88,6 +85,7 @@
     border-right: 1px solid rgba(128, 128, 128, 0.353);
     height: 1.5rem;
     width: 28rem;
+    z-index: -1;
     margin-left: 9rem;
     padding: 6rem;
 
@@ -100,12 +98,15 @@
     border-bottom: 1px solid rgba(128, 128, 128, 0.353);
     height: 9rem;
     width: 28rem;
+    z-index: -10;
     margin-left: 9rem;
     padding: 6rem;
 }
 
 .e-logo {
+    z-index: 3;
     margin-top: -9.6rem;
+    border: 1px solid rgb(147, 109, 109);
 }
 
 .e-logo .heading {
@@ -126,11 +127,11 @@
 }
 
 .code-editor {
+    background-color: #000;
     border: 1px solid rgba(128, 128, 128, 0.353);
     border-radius: 12px;
     width: 75vw;
-    transform: translateY(-4rem);
-    background-color: black;
+    margin-top: -2rem;
     margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +174,10 @@
 .code-image img {
     width: 90%;
 }
-
+.code-image1 img {
+    display: none;
+    width: 90%;
+}
 .parameters-test {
     color: white;
     padding: 1rem;
@@ -210,13 +214,28 @@
 .languages {
     display: flex;
     justify-content: center;
-    gap: 3rem;
-    padding: 2rem;
-    width: 100%;
+    gap: 2rem;
+    padding: 2rem 0px;
+}
+
+@media (max-width : 1087px) {
+
+    .languages {
+        /* border: 1px solid #ff0000; */
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
 }
 
 .languages .grid-item {
-    padding: 1rem;
+    /* padding: 1rem; */
+    width: 3rem;
+    /* border: 1px solid rgb(114, 114, 230); */
+}
+
+.languages .grid-item img {
+    width: 50px;
 }
 
 .AI {
@@ -279,7 +298,7 @@
     border: 2px solid gray;
     border-top: none;
     padding: 2rem;
-    transform: translateX(100%);
+    transform: translateX(90%);
     width: 6rem;
 }
 
@@ -291,7 +310,7 @@
 }
 
 .mock-interview {
-    padding: 2rem;
+    padding:auto;
 }
 
 .mock-interview .image {
@@ -299,7 +318,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 2.7rem;
+    margin: auto;
 }
 
 .mock-image {
@@ -363,9 +382,8 @@
 
 .parameter-menu-flex1 div,
 .parameter-menu-flex2 div {
-
-    width: 256px;
-    padding: 20px;
+    width:6rem;
+    padding:.6rem;
 
 
 }
@@ -412,7 +430,7 @@
 }
 
 .parameter7 {
-    max-width: 50%;
+    width: 70%;
     background: linear-gradient(to right, rgb(28, 28, 28), transparent);
     margin-right: 4.2rem;
     margin-top: -5rem;
@@ -442,16 +460,19 @@
     height: 6rem;
     border-top: none;
     border-right: none;
-    transform: translateX(54rem);
+    transform: translateX(150%);
+    /* transform: translateX(50rem); */
 }
 
 .parameter7-container .down-box {
     border: 1px solid rgba(128, 128, 128, 0.353);
-    width: 0%;
+    /* background-color: #fff; */
+    width: 0.1%;
     height: 24rem;
     border-top: none;
     border-left: none;
-    transform: translateX(92rem);
+    transform: translateX(57600%);
+    /* transform: translateX(84.6rem); */
 }
 
 .parameter7-container .down-box2 {

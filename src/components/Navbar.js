@@ -19,7 +19,14 @@ export default function Navbar() {
                     Resources <FontAwesomeIcon icon={faCaretDown} />
                 </div>
                 <div className='item'>Request Access</div>
+
+                <div class="navbar-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
             </div>
+
         </nav>
     );
 }

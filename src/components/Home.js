@@ -59,11 +59,11 @@ export default function Home() {
                             <img src={beta} alt='' />
                         </div>
                         <div className='heading'>
-                            Your Success Journey <br></br> Begins with <span style={{ color: 'yellow' }}>E-Learning</span>
+                          <h1>  Your Success Journey <br></br> Begins with <span style={{ color: 'yellow' }}>E-Learning</span></h1>
                         </div>
 
                         <div className='tagline'>
-                            Learning, Certifications, AI Resume Builder, Mock Interviews <br></br> and Much More..
+                        <p>  Learning, Certifications, AI Resume Builder, Mock Interviews <br></br> and Much More..</p>
                         </div>
 
                         <div className='button'>
@@ -130,7 +130,9 @@ export default function Home() {
 
                     </div>
 
-
+                    <div className='code-image1'>
+                            <img src={code_editor} />
+                        </div>
 
 
                     <div className='parameter7-container'>
@@ -159,7 +161,7 @@ export default function Home() {
                             <p> A 7-parameter test offers comprehensive insights with precision,
                                 leaving no stone unturned in evaluating complex variables.</p>
                         </div>
-                        <h2 style={{ backgroundColor: 'black', marginRight: '12rem' }}>The Most Complete</h2>
+                        {/* <h2 style={{ backgroundColor: 'black', marginRight: '12rem' }}>The Most Complete</h2> */}
                     </div>
 
 
@@ -217,7 +219,6 @@ export default function Home() {
                             Achieve Recognition: Dive into a curated selection from our extensive <br></br>catalog of industry-leading certifications.
                         </div>
 
-
                         <div className='languages'>
                             <div className='grid-item'>
                                 <img src={javascript} alt='js' />
@@ -241,6 +242,7 @@ export default function Home() {
                                 <img src={java} alt='java' />
                             </div>
                         </div>
+
                     </div>
 
 
@@ -256,7 +258,7 @@ export default function Home() {
                         CEO,RUSA
                     </div>
 
-                    <div style={{ width: '70vw', backgroundColor: 'gray', width: '60vw', height: '1px', opacity: '.3', margin: '6rem', transform: 'translateX(20%)' }}></div>
+                    <div className='AI-line' style={{ width: '70vw', backgroundColor: 'gray', width: '60vw', height: '1px', opacity: '.3', margin: '6rem', transform: 'translateX(20%)' }}></div>
 
                     <div className='resume-builder'>
 

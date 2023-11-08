@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.css'
+import '../../src/index.css'
 import logo from './images/Group-33524.png';
 import Facebook from './images/Facebook-1 1.png';
 import Instagram from './images/Instagram 1 1.png';
@@ -11,7 +12,9 @@ import Twitter from './images/Twitter-1 1.png'
 function Footer() {
     return (
         <div className="footer">
+
             <div className="fotter-main-menu">
+
                 <div className="footer-menu-logo">
                     <div className="footer-logo">
                         <img className="logo" src={logo} alt="logo" />
@@ -50,7 +53,6 @@ function Footer() {
                         <p>AI & ML</p>
                     </div>
                 </div>
-
                 <div className="footer-menu-3">
                     <div>
                         <span>Company</span>
@@ -67,9 +69,8 @@ function Footer() {
 
                     </div>
                 </div>
-
             </div>
-
+            <hr />
             <div className="horizontal-line"></div>
 
             <div className="footer-final">
