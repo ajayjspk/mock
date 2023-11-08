@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mock/static/css/main.9a0b4609.css",
-    "main.js": "/mock/static/js/main.f2457832.js",
+    "main.css": "/mock/static/css/main.7f176277.css",
+    "main.js": "/mock/static/js/main.e13505a1.js",
     "static/media/Screenshot 8.png": "/mock/static/media/Screenshot 8.411984aa6f2189beae4e.png",
     "static/media/Screenshot 7.png": "/mock/static/media/Screenshot 7.1842360c70f929b4fba4.png",
     "static/media/Screenshot 9.png": "/mock/static/media/Screenshot 9.f0042cebd99e61330cfe.png",
@@ -15,11 +15,11 @@
     "static/media/Group 33548.png": "/mock/static/media/Group 33548.8e9fd418d18a7f40de92.png",
     "static/media/Group 33540.png": "/mock/static/media/Group 33540.a7ac054031736f196b89.png",
     "index.html": "/mock/index.html",
-    "main.9a0b4609.css.map": "/mock/static/css/main.9a0b4609.css.map",
-    "main.f2457832.js.map": "/mock/static/js/main.f2457832.js.map"
+    "main.7f176277.css.map": "/mock/static/css/main.7f176277.css.map",
+    "main.e13505a1.js.map": "/mock/static/js/main.e13505a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a0b4609.css",
-    "static/js/main.f2457832.js"
+    "static/css/main.7f176277.css",
+    "static/js/main.e13505a1.js"
   ]
 }
