@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
-import route from './images/Group-2195.png'
+// import route from './images/Group-2195.png'
+import route from './images/route.png'
 import beta from './images/Group 33528.png'
 import code_editor from './images/Screenshot 10.png'
 import man from './images/image 500.png'
